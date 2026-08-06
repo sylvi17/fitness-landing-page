@@ -88,7 +88,6 @@ ul {
   box-shadow: 0 8px 20px rgba(250, 204, 21, 0.35);
 }
 
-/* ===== HEADER / NAVBAR ===== */
 .header {
   position: sticky;
   top: 0;
@@ -103,7 +102,6 @@ ul {
   justify-content: space-between;
 }
 
-/* ===== LOGO ===== */
 .logo {
   display: flex;
   align-items: center;
@@ -174,7 +172,6 @@ ul {
   margin-bottom: 16px;
 }
 
-/* ===== NAV MENU ===== */
 .nav-menu {
   display: flex;
   gap: 32px;
@@ -222,7 +219,6 @@ ul {
   border-radius: 2px;
 }
 
-/* ===== HERO ===== */
 .hero {
   padding: 30px 0 0;
 }
@@ -265,7 +261,6 @@ ul {
   font-size: 0.95rem;
 }
 
-/* ===== FEATURES BAR ===== */
 .features-bar {
   background-color: var(--color-primary);
   color: #003b42;
@@ -292,7 +287,6 @@ ul {
   transform: translateY(-2px);
 }
 
-/* ===== ABOUT SECTION (2 BACKGROUND) ===== */
 .about {
   padding: 0;
 }
@@ -403,7 +397,6 @@ ul {
   font-weight: 500;
 }
 
-/* ===== TRAINER SECTION ===== */
 .trainer {
   padding: 60px 0;
   background-color: var(--color-bg-dark);
@@ -483,7 +476,6 @@ ul {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 
-/* ===== TESTIMONIAL SECTION ===== */
 .testimonial {
   padding: 60px 0;
   background-color: var(--color-bg-dark);
@@ -550,7 +542,6 @@ ul {
   color: #555;
 }
 
-/* ===== CTA ===== */
 .cta {
   background-color: #0e3b3f;
   padding: 40px 0;
@@ -568,7 +559,6 @@ ul {
   font-size: 1.5rem;
 }
 
-/* ===== FOOTER ===== */
 .footer {
   background-color: #0e3b3f;
   padding: 30px 0;
@@ -598,9 +588,7 @@ ul {
   color: var(--color-text-muted);
 }
 
-/* ============================================
-   RESPONSIVE
-   ============================================ */
+
 
 @media (max-width: 992px) {
   .trainer-grid {
