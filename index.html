@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness - Landing Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">
+        <span class="logo-mark">
+          <span class="circle circle-teal"></span>
+          <span class="circle circle-yellow">
+            <svg viewBox="0 0 24 24" class="dumbbell-icon">
+              <rect x="2" y="10" width="3" height="4" rx="1"/>
+              <rect x="19" y="10" width="3" height="4" rx="1"/>
+              <rect x="6" y="8" width="2.5" height="8" rx="1"/>
+              <rect x="15.5" y="8" width="2.5" height="8" rx="1"/>
+              <rect x="8.5" y="11" width="7" height="2" rx="1"/>
+            </svg>
+          </span>
+        </span>
+        <span class="logo-text">Fitness</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#trainer">Trainer</a></li>
+        <li><a href="#review">Review</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-image">
+        <img src="assets/images/hero.jpg" alt="Gym Equipment">
+      </div>
+
+      <div class="hero-content">
+        <h1>We Dont Just Practice <br> But Calms The Soul</h1>
+        <p>
+          Achieve your fitness goals with personalized training programs designed to match your lifestyle.
+          Build strength, improve endurance, and stay motivated every step of your journey.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-bar">
+    <div class="container features-list">
+      <div class="feature-item">Beginner Friendly</div>
+      <div class="feature-item">Solid Community</div>
+      <div class="feature-item">Free Consultation</div>
+      <div class="feature-item">Trainer Professional</div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+
+    <div class="about-top">
+      <div class="container">
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/tUykoP30Gb0"
+            title="Gym Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-bottom">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Fitness Is The Best Solution For You</h2>
+            <p>
+              Whether you're just starting your fitness journey or aiming for the next level,
+              our experienced trainers are here to guide you. We provide personalized workout plans,
+              nutritional advice, and continuous support to help you achieve lasting results.
+            </p>
+            <a href="#contact" class="btn btn-primary">Contact Now</a>
+          </div>
+
+          <div class="contact-card" id="contact">
+            <h3>Contact Us!</h3>
+            <ul>
+              <li>
+                <img src="assets/icons/mail.png" alt="Email" class="icon">
+                <div>
+                  <span class="label">Email</span>
+                  <span class="value">fitnes@gmail.com</span>
+                </div>
+              </li>
+              <li>
+                <img src="assets/icons/phone.png" alt="Phone" class="icon">
+                <div>
+                  <span class="label">Phone</span>
+                  <span class="value">0898-1234-1234</span>
+                </div>
+              </li>
+              <li>
+                <img src="assets/icons/location.png" alt="Address" class="icon">
+                <div>
+                  <span class="label">Address</span>
+                  <span class="value">Jl. Budi Utomo No. 8 RT 01 RW 02, Jawa Tengah, Indonesia</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===== TRAINER SECTION ===== -->
+  <section class="trainer" id="trainer">
+    <div class="container trainer-header">
+      <div class="trainer-badge">
+        <img src="assets/images/trainer-badge.jpg" alt="Trainer">
+      </div>
+      <div class="trainer-header-text">
+        <h2>Trainer Professional</h2>
+        <p>
+          Our certified trainers are dedicated to helping you reach your full potential.
+          With years of experience and a passion for fitness, they provide expert guidance,
+          motivation, and support throughout your transformation.
+        </p>
+      </div>
+    </div>
+
+    <div class="container trainer-grid">
+      <div class="trainer-card">
+        <h4>Cevaline Hyen</h4>
+        <div class="trainer-photo">
+          <img src="assets/images/trainer-1.jpg" alt="Cevaline Hyen">
+        </div>
+      </div>
+      <div class="trainer-card">
+        <h4>Step Hanson</h4>
+        <div class="trainer-photo">
+          <img src="assets/images/trainer-2.jpg" alt="Step Hanson">
+        </div>
+      </div>
+      <div class="trainer-card">
+        <h4>Angela Traine</h4>
+        <div class="trainer-photo">
+          <img src="assets/images/trainer-3.jpg" alt="Angela Traine">
+        </div>
+      </div>
+      <div class="trainer-card">
+        <h4>Robert Bert</h4>
+        <div class="trainer-photo">
+          <img src="assets/images/trainer-4.jpg" alt="Robert Bert">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIAL SECTION ===== -->
+  <section class="testimonial" id="review">
+    <div class="container">
+      <h2 class="section-title">They Are Happy Members</h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="assets/images/testimonial-1.jpg" alt="Rhone">
+            <div>
+              <h4>Rhone</h4>
+              <span>Trainer</span>
+            </div>
+          </div>
+          <p>
+            The trainers are incredibly supportive and professional.
+            Since joining this gym, I've become healthier, stronger, and much more confident.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="assets/images/testimonial-2.jpg" alt="Jessica">
+            <div>
+              <h4>Jessica</h4>
+              <span>CEO</span>
+            </div>
+          </div>
+          <p>
+            Every workout session is enjoyable and challenging.
+            The personalized training plan helped me lose weight while building muscle.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-top">
+            <img src="assets/images/testimonial-3.jpg" alt="Ellie">
+            <div>
+              <h4>Ellie</h4>
+              <span>Designer</span>
+            </div>
+          </div>
+          <p>
+           The facilities are modern, the atmosphere is welcoming, and the trainers truly care about your progress.
+           I highly recommend this fitness center.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-content">
+      <h2>Join Our Member Now!</h2>
+      <a href="#contact" class="btn btn-accent">Contact</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="#" class="logo footer-logo">
+        <span class="logo-mark">
+          <span class="circle circle-teal"></span>
+          <span class="circle circle-yellow">
+            <svg viewBox="0 0 24 24" class="dumbbell-icon">
+              <rect x="2" y="10" width="3" height="4" rx="1"/>
+              <rect x="19" y="10" width="3" height="4" rx="1"/>
+              <rect x="6" y="8" width="2.5" height="8" rx="1"/>
+              <rect x="15.5" y="8" width="2.5" height="8" rx="1"/>
+              <rect x="8.5" y="11" width="7" height="2" rx="1"/>
+            </svg>
+          </span>
+        </span>
+        <span class="logo-text">Fitness</span>
+      </a>
+      <ul class="footer-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#trainer">Trainer</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
